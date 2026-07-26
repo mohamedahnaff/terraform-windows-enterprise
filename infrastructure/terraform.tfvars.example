@@ -1,0 +1,21 @@
+aws_region          = "ap-south-1"
+project_name        = "terraform-windows-enterprise"
+environment         = "production"
+owner               = "Abdul-Ahnaf"
+cost_center         = "Automation"
+service_now_request = "RITM0000000"
+
+vpc_cidr = "10.40.0.0/16"
+
+private_subnet_cidrs = [
+  "10.40.10.0/24",
+  "10.40.20.0/24"
+]
+
+instance_count   = 2
+instance_type    = "t3.medium"
+root_volume_size = 50
+
+windows_ami_parameter_name = "/aws/service/ami-windows-latest/Windows_Server-2022-English-Full-Base"
+
+secret_recovery_window_days = 30
