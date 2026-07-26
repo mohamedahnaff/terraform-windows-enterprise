@@ -1,0 +1,13 @@
+aws_region          = "ap-south-1"
+project_name        = "terraform-windows-enterprise"
+environment         = "shared"
+owner               = "Abdul-Ahnaf"
+
+github_owner        = "mohamedahnaff"
+github_owner_id     = "REPLACE_WITH_GITHUB_OWNER_ID"
+github_repository   = "terraform-windows-enterprise"
+github_repository_id = "REPLACE_WITH_GITHUB_REPOSITORY_ID"
+github_environment  = "production"
+
+state_bucket_name   = "tfstate-771665904490-ap-south-1"
+state_kms_key_arn   = "REPLACE_WITH_TERRAFORM_STATE_KMS_KEY_ARN"
