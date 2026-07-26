@@ -57,3 +57,7 @@ Thumbs.db
 *.bak
 *.swp
 *~
+
+# Local partial backend configuration
+backend.hcl
+**/backend.hcl

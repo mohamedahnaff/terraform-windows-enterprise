@@ -1,0 +1,6 @@
+aws_region           = "ap-south-1"
+project_name         = "terraform-windows-enterprise"
+environment          = "shared"
+repository_name      = "terraform-windows-enterprise"
+owner                = "Mohamed-Ahnaf"
+state_retention_days = 365
